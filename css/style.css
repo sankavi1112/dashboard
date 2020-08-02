@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(224, 219, 219);
+    font-family:  sans-serif;
+}
+@media (max-width: 768px) {
+    .sidebar {
+      position: static;
+      height:auto;
+    }
+  
+    .top-bar {
+      position: static;
+    }
+  }
+.sidebar{
+    background:linear-gradient(#04013be8,#04011fe3),url(../img/sidebar-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 7px 25px ;
+}
+.bottom-border{
+    border-bottom: 1px solid #eee;
+}
+.sidebar .active {
+    background-color: #35d1dcea;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px #111;
+    transition: all .3s ease;
+  }
+  
+  .sidebar .active:hover {
+    background-color: #36a9f6;
+    transform: translateY(-5px);
+  }
+  
+  .sidebar-link {
+    transition: all .3s ease;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #444;
+    border-radius: 7px;
+  }
+  
+  .search {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #999;
+    transition: all .4s ease;
+  }
+  
+  .search:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #35d1dc;
+  }
+  
+  .search-btn {
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all .4s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #eee;
+    transform: translateY(-1px);
+  }
+  
+  .icon-notify {
+    position: relative;
+  }
+  
+  .icon-notify-link::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #f44336;
+  }
+.top-bar{
+    color:white;
+    background-color:#060231e3 ;
+}
+.card1{
+    background-image:linear-gradient(to top right,rgb(12, 27, 160),rgb(185, 9, 141));
+    border-radius:5px;
+}
+.card2{
+    background-image:linear-gradient(to top right,rgb(252, 56, 7),#f7b733);
+    border-radius:5px;
+}
+.card3{
+    background-image:linear-gradient(to top right,rgb(5, 99, 128),rgb(35, 138, 9));
+    border-radius:5px;
+}
+.card4{
+    background-image:linear-gradient(to top right,#ee0979,rgb(248, 78, 10));
+    border-radius:5px;
+}
+.top-cards:hover{
+    box-shadow: 1px 5px 10px rgb(34, 33, 33);
+    transform: translateY(4px);
+}
+.donut{
+    background-color: #E6E6FA;
+}
+.progress-bar-vertical {
+    width: 15px;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+    float: left;
+    
+  }
+  .progress-bar-vertical .progress-bar {
+    width: 100%;
+    background-color: rgba(90, 4, 76, 0.822);
+  }
+
+
+
+  
